@@ -5,8 +5,6 @@ var bricks={
     y:30,
     width:70,
     height:25,
-    // rows:3,
-    // cols:5,
     drawbricks:function (){
         context.beginPath();
         context.rect(this.x, this.y, this.width, this.height);
